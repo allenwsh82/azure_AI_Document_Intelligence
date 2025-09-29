@@ -1,4 +1,4 @@
-#**🚀 Azure Document Intelligence with Streamlit UI – Enterprise-Ready in 30 Minutes**
+**🚀 Azure Document Intelligence with Streamlit UI – Enterprise-Ready in 30 Minutes**
 
 This project demonstrates how to build a lightweight, production-ready front end using Streamlit to interface with Microsoft Azure Document Intelligence. It’s designed for enterprise scenarios such as invoice, receipt, ID, and business card processing—delivered in a clean, drag-and-drop web UI.
 🔧 Features
