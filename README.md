@@ -22,10 +22,17 @@ This project demonstrates how to build a lightweight, production-ready front end
 - Streamlit
 - Visual Studio Code (recommended IDE)
 
-
 **🛠️ Setup Instruction**
 
 1) Create a Document Intelligence resource in the Azure Portal
+
+<br/>
+
+<img width="1000" height="800" alt="Form_Recognizer" src="https://github.com/user-attachments/assets/20a65ef1-2985-4da9-9731-4c360ef1f638" />
+
+<br/>
+
+
 2) Retrieve your API Key and Endpoint
 3) Clone this repo:
    ``` 
