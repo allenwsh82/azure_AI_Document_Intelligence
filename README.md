@@ -34,6 +34,13 @@ This project demonstrates how to build a lightweight, production-ready front end
 
 
 2) Retrieve your API Key and Endpoint
+
+<br/>
+
+<img width="831" height="451" alt="Screenshot 2025-09-29 150044" src="https://github.com/user-attachments/assets/9c8a3c20-588a-4fea-bdfe-af5d4fae5617" />
+
+<br/>
+
 3) Clone this repo:
    ``` 
    git clone https://github.com/allenwsh82/azure_AI_Document_Intelligence
@@ -42,14 +49,14 @@ This project demonstrates how to build a lightweight, production-ready front end
    ```
    pip install -r requirements.txt
    ```
-6) Add your credntials into the application.py
+5) Add your credntials into the application.py
    
-7) Run the application with this command:
+6) Run the application with this command:
    ```
    streamlit run application.py
    ```
 
-8) This should open up a webpage with localhost:8501 in your browser:
+7) This should open up a webpage with localhost:8501 in your browser:
 
 <br/>
 
