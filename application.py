@@ -44,9 +44,3 @@ if uploaded_file:
             confidence = f"{field.confidence:.2f}" if field.confidence is not None else "N/A"
             st.write(f"**{name}**: {value} (Confidence: {confidence})")
 
-    #st.subheader("📊 Extracted Tables")
-    #for table in result.tables:
-    #    table_data = [["" for _ in range(table.column_count)] for _ in range(table.row_count)]
-    #    for cell in table.cells:
-    #        table_data[cell.row_index][cell.column_index] = cell.content
-    #    st.table(table_data)
