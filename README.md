@@ -44,16 +44,19 @@ Implementation idea:
 
 8) This should open up a webpage with localhost:8501 in your browser:
 
+<br/>
 <img width="1000" height="800" alt="Streamlit_LocalHost_Webpage" src="https://github.com/user-attachments/assets/86b93857-6f70-4c66-a892-7c37099365d5" />
-
+<br/>
 
 📊 Output Example
+
 Once uploaded, the document is parsed and displayed in structured sections:
 - Extracted Fields: Key-value pairs like invoice number, date, total
 - Named Fields: Semantic labels for easier downstream use
 - Tables: Line items and structured data rendered cleanly
   
 💡 Use Cases
+
 - Invoice automation
 - Identity document parsing
 - Receipt digitization
@@ -61,5 +64,6 @@ Once uploaded, the document is parsed and displayed in structured sections:
 - Credit card form processing
   
 📌 Notes
+
 - This is a serverless, pay-as-you-go solution—ideal for scalable enterprise deployments
 - You can easily swap Streamlit with other front-end frameworks like React, Flask, or FastAPI
