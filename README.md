@@ -22,5 +22,44 @@ Implementation idea:
 - Streamlit
 - Visual Studio Code (recommended IDE)
 
-  
 
+🛠️ Setup Instruction
+
+1) Create a Document Intelligence resource in the Azure Portal
+2) Retrieve your API Key and Endpoint
+3) Clone this repo:
+   ``` 
+   git clone https://github.com/allenwsh82/azure_AI_Document_Intelligence
+   ```
+4) Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+6) Add your credntials into the application.py
+   
+7) Run the application with this command:
+   ```
+   streamlit run application.py
+   ```
+
+8) This should open up a webpage with localhost:8501 in your browser:
+
+<img width="1000" height="800" alt="Streamlit_LocalHost_Webpage" src="https://github.com/user-attachments/assets/86b93857-6f70-4c66-a892-7c37099365d5" />
+
+
+📊 Output Example
+Once uploaded, the document is parsed and displayed in structured sections:
+- Extracted Fields: Key-value pairs like invoice number, date, total
+- Named Fields: Semantic labels for easier downstream use
+- Tables: Line items and structured data rendered cleanly
+  
+💡 Use Cases
+- Invoice automation
+- Identity document parsing
+- Receipt digitization
+- Business card extraction
+- Credit card form processing
+  
+📌 Notes
+- This is a serverless, pay-as-you-go solution—ideal for scalable enterprise deployments
+- You can easily swap Streamlit with other front-end frameworks like React, Flask, or FastAPI
