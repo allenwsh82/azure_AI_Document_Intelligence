@@ -45,7 +45,10 @@ Implementation idea:
 8) This should open up a webpage with localhost:8501 in your browser:
 
 <br/>
+
 <img width="1000" height="800" alt="Streamlit_LocalHost_Webpage" src="https://github.com/user-attachments/assets/86b93857-6f70-4c66-a892-7c37099365d5" />
+
+<br/>
 <br/>
 
 📊 Output Example
