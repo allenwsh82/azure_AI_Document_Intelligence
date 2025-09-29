@@ -2,11 +2,11 @@
 
 This project demonstrates how to build a lightweight, production-ready front end using Streamlit to interface with Microsoft Azure Document Intelligence. It’s designed for enterprise scenarios such as invoice, receipt, ID, and business card processing—delivered in a clean, drag-and-drop web UI.
 
-Implementation idea:
+**Implementation idea:**
 
 <img width="1000" height="600" alt="AZ_Document_Intelligence" src="https://github.com/user-attachments/assets/4e5c4556-6470-4eb7-be99-6e1ddfa94019" />
 
-🔧 Features
+**🔧 Features**
 - Seamless integration with Azure Document Intelligence API (prebuilt-invoice model)
 - Drag-and-drop support for PDF, JPG, PNG, JPEG
 - Real-time extraction of:
@@ -16,14 +16,14 @@ Implementation idea:
 - Clean, responsive UI powered by Streamlit
 - Modular Python codebase for easy extension and customization
   
-📦 Tech Stack
+**📦 Tech Stack**
 - Azure Document Intelligence (formerly Form Recognizer)
 - Python 3.10+
 - Streamlit
 - Visual Studio Code (recommended IDE)
 
 
-🛠️ Setup Instruction
+**🛠️ Setup Instruction**
 
 1) Create a Document Intelligence resource in the Azure Portal
 2) Retrieve your API Key and Endpoint
@@ -51,14 +51,14 @@ Implementation idea:
 <br/>
 <br/>
 
-📊 Output Example
+**📊 Output Example**
 
 Once uploaded, the document is parsed and displayed in structured sections:
 - Extracted Fields: Key-value pairs like invoice number, date, total
 - Named Fields: Semantic labels for easier downstream use
 - Tables: Line items and structured data rendered cleanly
   
-💡 Use Cases
+**💡 Use Cases**
 
 - Invoice automation
 - Identity document parsing
@@ -66,7 +66,7 @@ Once uploaded, the document is parsed and displayed in structured sections:
 - Business card extraction
 - Credit card form processing
   
-📌 Notes
+**📌 Notes**
 
 - This is a serverless, pay-as-you-go solution—ideal for scalable enterprise deployments
 - You can easily swap Streamlit with other front-end frameworks like React, Flask, or FastAPI
