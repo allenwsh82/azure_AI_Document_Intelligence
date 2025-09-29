@@ -4,7 +4,7 @@ This project demonstrates how to build a lightweight, production-ready front end
 
 Implementation idea:
 
-<img width="800" height="600" alt="AZ_Document_Intelligence" src="https://github.com/user-attachments/assets/4e5c4556-6470-4eb7-be99-6e1ddfa94019" />
+<img width="1000" height="600" alt="AZ_Document_Intelligence" src="https://github.com/user-attachments/assets/4e5c4556-6470-4eb7-be99-6e1ddfa94019" />
 
 🔧 Features
 - Seamless integration with Azure Document Intelligence API (prebuilt-invoice model)
