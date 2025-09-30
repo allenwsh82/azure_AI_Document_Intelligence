@@ -1,4 +1,6 @@
 # application.py
+# If you have any difficulties in running this application.py script, feel free to drop me an email at allenwsh@gmail.com
+
 import streamlit as st
 from azure.ai.formrecognizer import DocumentAnalysisClient
 from azure.core.credentials import AzureKeyCredential
